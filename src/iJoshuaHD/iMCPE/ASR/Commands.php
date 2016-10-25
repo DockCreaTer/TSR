@@ -33,15 +33,15 @@ class Commands implements CommandExecutor{
 						return;
 					}
 					$this->plugin->setValueTimer($args[0]);
-					$sender->sendMessage("[ASR] You have set the timer to " . $args[0] . " min/s. The changes will apply after the next server restart.");
+					$sender->sendMessage("[星童海關] You have set the timer to " . $args[0] . " min/s. The changes will apply after the next server restart.");
 				}else{
-					$sender->sendMessage("Usage: /asr <value>");
+					$sender->sendMessage("使用: /asr <value>");
 				}
 			break;
 		
 			case "restart":
 				$time = $this->plugin->getTimer();
-				$sender->sendMessage("[ASR] The server will restart in $time");
+				$sender->sendMessage("[星童海關] 海關將在 $time 後關閉");
 			break;
 		
 		}
