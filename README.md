@@ -1,4 +1,4 @@
-ASR
+TSR
 ===
 
-Automatic Server Restarter. Restarts your server at given interval.
+Timer Server Restarter. Restarts your server at given interval.
